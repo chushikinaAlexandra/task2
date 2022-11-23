@@ -1,0 +1,274 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Montserrat:wght@300;400&display=swap');
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    padding-top: 50px;
+    padding-bottom: 84px;
+    background-color: #0E1014;
+    color: #E4E5EA;
+    
+}
+.mobile-menu{
+    display: none;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* меню */
+.header-nav{
+    display: flex;
+    column-gap: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: flex-end;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 10px;
+    line-height: 12px;
+    width: 140px;
+    opacity: 0.8;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 30px;
+    z-index: 1;
+}
+.nav-item a{
+    color: #E4E5EA;
+}
+
+.contacts-list{
+    display: flex;
+    column-gap: 49px;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.contacts-icons{
+    display: flex;
+    column-gap: 34px;
+}
+
+/* основной контент */
+
+.header-content{
+    display: flex;
+    padding-top: 94px;
+    justify-content: space-between;
+    column-gap: 50px;
+    align-items: flex-start;
+}
+.main-content h3{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+.main-content h2{
+    font-weight: 900;
+    font-size: 48px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 90.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 30px;
+}
+
+.main-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.95;
+}
+.mobile-content{
+    display: none;
+}
+.second-content{
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: flex-end;
+    text-align: right;
+}
+.computer-content{
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    column-gap: 31px;
+    padding-bottom: 21px;
+}
+.second-content h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.second-content h2 span{
+    font-weight: 700;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 90.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.row-item h3{
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+.row-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.95;
+}
+
+.btn{
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+    padding: 21px 35px;
+    z-index: 1;
+}
+/* Нижнее меню */
+.footer{
+    padding-top: 40px;
+    background-color: #0E1014;
+    color: #E4E5EA
+}
+.footer-row{
+    display: flex;
+    column-gap: 98px;
+    padding-bottom: 33px;
+}
+.column{
+    display: flex;
+    column-gap: 52px;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    z-index: 1;
+}
+.footer-column h2{
+    font-weight: 700;
+    font-size: 14px;
+    color: #656566;
+}
+.footer-column ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer-column.last{
+    margin-left: auto;
+    align-items: flex-end;
+    text-align: right;
+}
+.footer-column.last ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
+.icons-list{
+    display: flex;
+    column-gap: 14px;
+    justify-content: flex-end;
+}
+.privacy-policy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.privacy-policy a{
+    color: #E4E5EA;
+}
+.privacy-policy div{
+    color: #E4E5EA;
+    padding-top: 5px;
+    text-decoration: underline #E4E5EA;
+}
+.ball1{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 560px;
+    top: 87px;
+    border-radius: 100%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+    z-index: 0;
+}
+.light1{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -130px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: 0;
+}
+.ball2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 905px;
+    top: -2px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+    border-radius: 100%;
+    z-index: 0;
+}
+.ball3{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 890px;
+    top: 547px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+    border-radius: 100%;
+    z-index: 0;
+}
+.light2{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: 0;
+}

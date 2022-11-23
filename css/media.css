@@ -1,0 +1,146 @@
+@media(max-width: 1200px){
+	.header{
+		padding-top: 0;
+	}
+	.header-nav{
+		display: none;
+	}
+	.logo{
+		display: none;
+	}
+	.mobile-menu{
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		padding: 20px 0;
+		background-color: #1E1E1E;
+		z-index: 1;
+	}
+	.ball2{
+		display: none;
+	}
+}
+@media(max-width:1000px){
+	.ball3{
+		display: none;
+	}
+}
+@media(max-width: 800px){
+	
+	.main-content h3{
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.main-content h2{
+		font-size: 36px;
+		line-height: 44px;
+		padding-bottom: 15px;
+	}
+	.computer-content{
+		display: none;
+	}
+	.content-row{
+		column-gap: 30px;
+	}
+	.mobile-content{
+		display: flex;
+		align-items: flex-end;
+		text-align: right;
+		column-gap: 25px;
+	}
+	.content-column{
+		display: flex;
+		flex-direction: column;
+		row-gap: 14px;
+		font-weight: 400;
+		font-size: 13px;
+		opacity: 0.95;
+		padding-bottom: 14px;
+	}
+	.content-column span{
+		background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 90.36%), #E4E5EA;
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    	background-clip: text;
+	}
+	.footer-row{
+		column-gap: 30px;
+	}
+	.footer{
+		position: relative;
+		background-color: #1E1E1E;
+		z-index: 1;
+	}
+	.ball1{
+		top: 380px;
+		left: 120px;
+		filter: blur(2.5px);
+	}
+	.ball2{
+		display: block;
+		left: 440px;
+		top: 60px;
+	}
+	.light1{
+		left: 258px;
+		top: 107px;
+	}
+}
+@media(max-width:700px){
+	.header-content{
+		flex-direction: column;
+		row-gap: 45px;
+	}
+	.btn{
+		display: none;
+	}
+	.header-content{
+		padding-top: 40px;
+	}
+	.second-content{
+		text-align: left;
+	}
+	.mobile-content{
+		text-align: left;
+	}
+	.header{
+		padding-bottom: 59px;
+	}
+	.footer-row{
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.footer-column.last{
+		margin-left: unset;
+		align-items: flex-start;
+		text-align: left;
+	}
+	.icons-list{
+		justify-content: flex-start;
+	}
+	.privacy-policy{
+		align-items: flex-start;
+	}
+	.footer-column.last ul {
+		row-gap: 10px;
+	} 
+	.footer-row{
+		padding-bottom: 50px;
+	} 
+	.ball1{
+		width: 50px;
+		height: 50px;
+		top: 500px;
+		left: 50px;
+		filter: blur(2.5px);
+	}
+	.ball2{
+		right: -30px;
+		top: 300px;
+	}
+}
+@media(max-width:500px){
+	.mobile-menu li:last-child{
+		display: none;
+	}
+}
